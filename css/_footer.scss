@@ -1,0 +1,167 @@
+.grayOptions { 
+    padding: 60px 130px;  
+}
+ul.opcFooterList {
+    list-style-type: none;
+} 
+ul.socialFooter li { 
+    display: inline-block;
+    font-size: 4em; 
+}
+ul.dispLineFooter li {
+    display: inline-block;
+    padding-right: 18px;  
+    font-family: 'dockersLight','Arial';
+    color: #555;
+    font-size: 12.5px;
+}
+footer .container.gray {
+    background-color: #f3ede4;
+}
+footer .lastLinksFooter {
+    margin: 0px 40px 40px 40px;
+    border-top: 1px solid #aaaaaa;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer .lastLinksFooter div {
+    padding-top: 20px;
+}
+
+ul.dispLineFooter {
+    text-align: left;
+}
+footer {
+    margin-top: 50px;
+}
+input.newsletterFooter {
+    border: 1px solid #999;
+    background: white;;
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 13px;
+}
+.text-copyright { 
+    margin: 0px;;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 12px; 
+    text-align: right; 
+    text-transform: uppercase; 
+    color: #666;;
+}
+h3.topTitleFt { 
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-family: 'dockersLight', 'Arial';
+    margin-bottom: 10px;
+    color: #666;
+    font-size: 1.4em;
+} 
+h2.topTitleFt {
+    font-family: 'dockersLight', 'Arial';
+    font-weight: lighter;
+    font-size: 1.4em;
+    margin-top: 0px; 
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+}
+ul.opcFooterList li { 
+    font-family: 'dockersLight', 'Arial';
+    font-size: 12px;
+    padding: 12px 0px;
+}
+.textInfoNewsL p {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 1em;
+}
+.textInfoNewsL p.little { 
+    font-family: 'dockersLight', 'Arial';
+    font-size: .8em;
+    letter-spacing: .5px;
+    margin-top: 18px;
+}
+button.sendNewsL { 
+
+    background: gray;
+    padding: 7px 20px;
+    color: #c3c3c3;;
+    font-family: 'dockersLight', 'Arial';
+    display: inline-block;
+    border: none;
+}
+ul.opcFooterList li a {
+    color: #666;
+} 
+ul.opcFooterList li a:hover {
+    color: #f47321;  
+}
+ul.dispLineFooter li a {
+    color: black;
+}
+//Modal newsletter en footer para aparicion en todas las vistas
+.inputMailPop {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: table; 
+}
+.titlePop h3 {
+    text-align: center;
+    font-size: 1em;
+}
+.titlePop h2 {
+    text-align: center;
+}
+
+.inputMailPop button.sendPopNl {  
+    float: right;
+    width: 80px;
+    background: #e86d1e; 
+    padding: 10px;
+    color: white; 
+    font-family: 'dockersLight', 'Arial';
+    display: inline-block;
+    font-weight: bold; 
+    border: none;
+}
+
+.inputMailPop input {  
+    float: right;
+    width: 220px;
+    border: 1px solid #999;
+    background: white;
+    height: 40px;
+    padding-left: 15px;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 13px;
+}
+ 
+
+button.sendNewsLPop {
+    border: none;
+    background: black;
+    padding: 10px 20px;
+    color: #ebebeb;
+    font-family: 'dockersLight', 'Arial';
+    margin-left: -4px;
+}
+//Modal newsletter
+
+
+p.infoTxtEmailNsw {
+    color: #666;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 13.5px; 
+}
+
+
+p.infoTxtEmailNsw a {
+    text-decoration: underline;
+    color: #000;  
+}
+
+
+

@@ -1,0 +1,33 @@
+	
+//VISTA HELP COLLAPSE 
+	
+	#collapseOptionsText h1{
+		font-size: 18px; 
+		font-family:'dockersBold';
+		padding: 20px 0px 20px 0px;
+	}
+
+
+	.optionTextHelp{
+		padding-left: 30px;
+	}
+
+
+.optionTextHelp h4 {
+    padding: 10px;
+    font-family: 'dockersBold';
+    font-size: 18px!important;
+    letter-spacing: .1px;
+    background-image: url(../images/default/plusHelp.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+
+	.optionTextHelp.active h4{
+    background-image: url(../images/default/minusHelp.png);
+    background-position: left;
+    background-repeat: no-repeat;
+	}
+

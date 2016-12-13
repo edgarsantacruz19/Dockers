@@ -1,0 +1,479 @@
+body { 
+    width: auto;
+    min-width: 0;
+    font-weight: lighter;
+    font-family: 'dockersLight', 'Arial';
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input[type=radio],
+input[type=checkbox] {
+    vertical-align: middle;
+    margin: 0px;
+} 
+ul li {
+    list-style-type: none;
+    padding: 1px 0px;
+    font-size: 13px;
+}
+hr {
+    margin: 10px 0px;
+}
+input#coupon {
+    width: 180px;
+    margin-left: 5px;
+}
+input#couponSend {
+    background: #d7d7d7;
+    border: 0px;
+    padding: 3px 14px;
+    margin-left: 5px;
+    color: #727272;
+}
+img.secureCertificate {
+    padding: 30px 20px;
+}
+.sl {
+    padding-left: 0px;
+}
+.sr {
+    padding-right: 0px;
+}
+.arrowActive {
+    margin-left: -10px;
+    position: absolute;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 7px solid #002768;
+    margin-top: 4px;
+}
+.subTextDeposito {
+    font-size: 12.5px;
+    color: #666;
+    margin-top: 10px;
+    letter-spacing: .6px;
+}
+.boxRightPayment ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.boxRightPayment ul li {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 0px;
+    padding-right: 5px;
+    border-right: 1px dotted #d3d3d3;
+}
+.boxRightPayment {
+    float: right;
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.boxLeftPayment {
+    float: left;
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+}
+#finalStepCart {
+    border-top: 1px dotted #d3d3d3;
+    margin-bottom: 40px;
+}
+.container.shopFinal {
+    font-family: 'dockersLight', 'Arial';
+}
+.logoShop {
+    height: 41px; 
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.topShopInfo span {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .2px;
+}
+.topShopInfo p {
+    margin-top: -5px;
+    font-size: 12px;
+}
+.topShopInfo li {
+    display: inline-block;
+}
+.textoInfo {
+    padding-right: 10px;
+    float: left;
+    padding-left: 30px;
+    margin-left: 5px;
+}
+.topShopInfo {
+    float: right;
+    color: #999;
+    font-family: 'dockersLight', 'Arial';
+    margin-top: 10px;
+}
+.topShopInfo ul li.trackBox {
+    background-position: 0px -202px;
+}
+.topShopInfo ul li.trackBox:hover {
+    background-position: 0px -674px;
+    color: orange;
+    cursor: pointer;
+}
+.topShopInfo ul li.trackDate {
+    background-position: 0px -240px;
+}
+.topShopInfo ul li.trackDate:hover {
+    background-position: 0px -712px;
+    color: orange;
+    cursor: pointer;
+}
+.topShopInfo ul li.trackCash {
+    background-position: 0px -279px;
+}
+.topShopInfo ul li.trackCash:hover {
+    background-position: 0px -751px;
+    color: orange;
+    cursor: pointer;
+}
+.topShopInfo ul li.trackCard {
+    background-position: 0px -315px;
+}
+.topShopInfo ul li.trackCard:hover {
+    background-position: 0px -787px;
+    color: orange;
+    cursor: pointer;
+}
+.topShopInfo ul li.trackPhone {
+    background-position: 0px -356px;
+}
+.topShopInfo ul li.trackPhone:hover {
+    background-position: 0px -829px;
+    color: orange;
+    cursor: pointer;
+}
+.topShopInfo ul li {
+    background: url("../images/payment/sprite-cart.png");
+    height: 28px;
+}
+.titleClm {
+    border: 1px solid gray;
+    border-right: none;
+    border-left: none;
+    background: white;
+    color: #000;
+    font-family: 'dockersLight', 'Arial';
+    padding: 8px 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.contentColumn {
+    border: 1px solid #d3d3d3;
+    padding: 9px;
+    border-top: 3px solid gray;
+}
+.contentColumn tr td {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 12px;
+}
+.contentColumn table tbody tr td:first-child {
+    padding-right: 10px;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'dockersBold', 'Arial';
+}
+.rowTop {
+    width: 10px;
+    height: 10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #858585;
+    margin-top: -12px;
+    display: block;
+    position: absolute;
+    right: 25px;
+}
+#checkoutBtn {
+    font-family: 'dockersBold', 'Arial';
+    color: white;
+    background: #e86d1e; 
+    font-size: 20px;
+    border: none;
+    padding: 6px 18px 5px 18px;
+    letter-spacing: .3px;
+}
+
+#checkoutBtn:hover {
+    background: #c64d00;     
+}
+
+.CashOnDelivery_Payment {
+    border-bottom: 1px solid #d3d3d3 !important;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.Gateway {
+    border-bottom: 1px solid #d3d3d3 !important;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.Paypal_Express_Checkout_Debit {
+    border-bottom: 1px solid #d3d3d3 !important;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.oxxo {
+    border-bottom: 1px solid #d3d3d3 !important;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.Direct_Deposit {
+    border-bottom: 1px solid #d3d3d3 !important;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+.firstKit {
+    padding-right: 0px;
+}
+.secondKit {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+.thirdKit {
+    padding-right: 0px;
+    padding-left: 5px;
+}
+span.txtPayment {
+    font-family: 'dockersLight', 'Arial';
+    font-weight: bold;
+    font-size: 13px;
+}
+.sameDirection {
+    margin-top: 15px;
+}
+span.sameDirectionIcon {
+    background: url("../images/payment/sprite-cart.png");
+    width: 27px;
+    height: 25px;
+    display: inline-block;
+    float: left;
+    background-position: -366px 8px;
+}
+.visibleInfo {
+    background: url("../images/payment/information.png");
+    height: 16px;
+    width: 13px;
+    float: right;
+    margin-top: 4px;
+}
+.optionSelection {
+    padding-top: 6px;
+    padding-left: 5px;
+    display: inline-block;
+}
+.grayTextTop {
+    background-color: #f0f0f0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    font-family: 'dockersLight', 'Arial';
+    font-weight: bold;
+    font-size: 11.5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.btnFinalStep {
+    text-align: right;
+    margin-top: 10px;
+}
+.secureShopInfo {
+    margin-top: 20px;
+    color: #999;
+    border-bottom: 1px solid #999;
+    font-size: 15.5px;
+}
+.detailShopItem {
+    font-size: 13px;
+    margin-left: 5px;
+}
+.kitCartOneItem {
+    font-size: 13px;
+}
+.sel-cart-quantity {
+    padding-top: 10px;
+}
+.sel-cart-item-total {
+    padding-top: 10px;
+}
+.cartPriceSummary {
+    text-align: right;
+    margin: 10px 0px;
+    border-top: 1px solid #dfdfdf;
+}
+.subTotalPrice {
+    background-color: #f9f9f9;
+    padding: 3px 7px;
+    font-weight: bold;
+    border-right: 1px dotted #d3d3d3 !important;
+    border-bottom: 1px dotted #d3d3d3 !important;
+}
+.priceSend {
+    background-color: #f9f9f9;
+    padding: 3px 7px;
+    font-weight: bold;
+    border-right: 1px dotted #d3d3d3 !important;
+}
+.totalPriceCart {
+    padding: 7px 8px;
+    font-family: 'dockersLight', 'Arial';
+    font-weight: bold;
+    background: #f0f0f0;
+}
+.totalPayment {
+    padding: 8px 8px;
+    background: #f0f0f0;
+    font-size: 13px;
+}
+.cartItmNumberOne {
+    padding: 5px 7px;
+    border-bottom: 1px dotted #d3d3d3 !important;
+    font-size: 13px;
+}
+.cartItmNumberTwo {
+    padding: 3px 7px;
+    font-size: 13px;
+}
+.backCatalog {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.backCatalog a {
+    color: black;
+}
+.nav_color {
+    display: none;
+}
+.kitOptionSelected {
+    margin-top: 10px;
+    display: none;
+}
+.kitOptionSelected input[type="text"] {
+    height: 30px;
+    max-width: 100%;
+    border: 1px solid gray;
+    width: 100%;
+}
+.kitOptionSelected select {
+    max-width: 100%;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 0px;
+    border-radius: 0px;
+    height: 30px;
+}
+.multiplePayment {
+    padding-left: 15px;
+}
+.contentOptionPay {
+    display: block;
+    padding-bottom: 10px;
+}
+.kitOptionSelected {
+    font-size: 13px;
+}
+.cardOptSet {
+    margin-top: 10px;
+}
+.kitDirectionOption {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.directionMethodOption {
+    position: absolute;
+    left: 25px;
+}
+.divCouponInput {
+    margin-top: 10px;
+    display: none;
+}
+.divCouponInput.active {
+    display: block;
+}
+.actionShowCupon {
+    cursor: pointer;
+}
+/*Medias individuales de vista finalCart*/
+
+@media (max-width: 768px) {
+    .firstKit,
+    .secondKit,
+    .thirdKit {
+        padding: 10px !important;
+    }
+    .sendOptions label {
+        font-size: 12px;
+    }
+    .termsKit label {
+        font-size: 13px;
+    }
+    .moreWMb {
+        padding-right: 9px;
+        padding-left: 9px;
+    }
+}
+@media (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+    .firstKit {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+    .secondKit {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    .thirdKit {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+    .topShopInfo {
+        display: none;
+    }
+    .boxRightPayment {
+        float: left;
+    }
+    .logoShop {
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1100px) {
+    .container.shopFinal {
+        width: 1100px;
+        font-family: 'dockersLight', 'Arial';
+    }
+}
+/*Medias individuales de vista finalCart*/
+/*Errores*/
+
+input.error {
+    background-color: #ffc0c0!important;
+    border: #6f0000 1px solid!important;
+}
+select.error {
+    background-color: #ffc0c0!important;
+    border: #6f0000 1px solid!important;
+}
+select.success {
+    background-color: #f0fcf5!important;
+    border: #20c360 1px solid!important;
+}
+input.success {
+    background-color: #f0fcf5!important;
+    border: #20c360 1px solid!important;
+}
+/*Errores*/

@@ -1,0 +1,457 @@
+.hideZoomRight {
+  position: absolute;
+  height: 100%;
+  width: 200px;
+  right: 0;
+  z-index: 1;
+}
+
+.detProdGray {
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-size: 600% 545px;
+  border-bottom: 1px solid #dedede;
+}
+
+.titleProduct h1 {
+  font-family: 'dockersBold', 'Arial';
+  font-size: 1.8em;
+  margin-top: 35px;
+}
+
+.coloresProducto img {
+  height: 38px;
+  border: 1px solid #999;
+  width: 100%;
+}
+
+.coloresProducto div {
+  margin-bottom: 10px;
+}
+
+.colorsKitOptions {
+  margin-left: -5px;
+}
+
+.pdnAdjust {
+  padding-right: 90px;
+}
+
+.titleColor {
+  margin-bottom: 10px;
+}
+
+.titleColor ul li {
+  font-family: 'dockersLight', 'Arial';
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.titleColor ul li.colorTxt {
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: 'dockersBold', 'Arial';
+  color: gray;
+}
+
+.price p {
+  margin: 0px;
+  font-family: 'dockersBold', 'Arial';
+  font-size: 1.5em;
+}
+
+.btnAddPrd {
+  font-family: 'dockersBold', 'Arial';
+  width: 100%;
+  border: none;
+  padding: 19px;
+  background: #e86d1e;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+
+ul.listSizeKit li {
+  font-size: 11.5px;
+  font-family: 'dockersRegular', 'Arial';
+  border: 1px solid gray;
+  list-style-type: none;
+  display: inline-block;
+  padding: 7px;
+  margin-top: -1px;
+  margin-left: -5px;
+  background: #f3ede4;
+  cursor: pointer;
+}
+
+ul.listSizeKit li.none {
+  background-image: url('../images/default/size-x.png');
+  background-size: 100%;
+  border: 1px solid gray;
+  color: gray;
+  cursor: auto;
+}
+
+.sizeKit {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.sprtIconDetail h4:before {
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  background-image: url('../images/default/cuidados.png');
+  background-repeat: no-repeat;
+  content: '';
+  height: 24px;
+  margin-right: 5px;
+}
+
+.detailInfo h4:before {
+  background-position: -120px -45px;
+  width: 40px;
+}
+
+.detailMaterial h4:before {
+  background-position: -30px -45px;
+  width: 20px;
+}
+
+.detailSize h4:before {
+  background-position: -90px -42px;
+  width: 30px;
+}
+
+.sprtIconDetail p {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.sizeKit p {
+  font-size: 12px;
+  font-family: 'dockersLight', 'Arial';
+  margin: 0px;
+  padding-bottom: 7px;
+}
+
+ul.listSizeKit {
+  margin-left: 5px;
+}
+
+.infPriceStars {
+  margin: 10px 0px 20px 0px;
+}
+
+.priceRatingCombo {
+  margin-bottom: 20px;
+}
+
+.contentOptionClp ul li {
+  list-style-type: none;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  background: url(../images/default/detailLiPd.png);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+  background-position: 0 5px;
+}
+
+.contentOptionClp.openChild {
+  display: block;
+}
+
+ul.thumbsImgPd li {
+  list-style-type: none;
+  padding: 0px;
+  margin: 5px 0px;
+  width: 44px;
+  height: 44px;
+}
+
+ul.thumbsImgPd li.brdPrdZoom {
+  border: 1px solid gray;
+}
+
+ul.thumbsImgPd li.brdPrdZoom.activeBorder {
+  border: 2px solid #e86d1e;
+}
+
+ul.thumbsImgPd {
+  padding: 40px;
+  position: absolute;
+  z-index: 1;
+  width: 200px;
+  height: 100%;
+}
+
+ul.thumbsImgPd li.selectedItm {
+  border: 2px solid #bd4141;
+}
+
+h3.titlePop {
+  font-family: 'dockersLight', 'Arial';
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+.colorOptionsPop {
+  margin-bottom: 15px;
+}
+
+.colorOptionsPop .col-xs-2 {
+  padding: 0px 5px;
+}
+
+.colorOptionsPop .col-xs-2 img {
+  height: 40px;
+  width: 100%;
+}
+
+.price p span {
+  margin: 0px;
+  font-family: 'dockersBold', 'Arial';
+  font-size: 1em;
+}
+
+.cloudzoom0:hover {
+  cursor: zoom-in;
+}
+
+.pdn5px {
+  padding: 0px 5px;
+}
+
+ul.listSizeKit li:hover {
+  background: gray;
+  color: white;
+}
+
+.sprtIconDetail h4 {
+  font-size: 19px;
+}
+
+// derecha menu opciones producto
+img.activeColor {
+  border: 2px solid #bf6868;
+  padding: 1px;
+}
+
+.titleColor .styleNum {
+  color: #9a9a9a;
+}
+
+#myBtn {
+  font-weight: bold;
+  margin: 0px;
+  padding: 6px;
+  color: black;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+.qtyPrice span {
+  font-weight: lighter;
+}
+
+.styleNumberPd {
+  font-family: 'dockersBold', 'Arial';
+  color: #969696;
+  font-weight: bold;
+}
+
+label.reviewsData {
+  margin-right: 30px;
+}
+
+.pdnReview {
+  border-bottom: 1px dotted gray;
+  margin-bottom: 15px;
+}
+
+.prd-ratingOptionTitle {
+  width: 100px;
+}
+
+.rvwSend {
+  font-family: 'TradeGothic', 'Arial';
+  text-transform: uppercase;
+  font-size: 17px;
+  border: none;
+  padding: 10px 20px;
+  background: #F47321;
+  color: white;
+}
+
+.form-group label {
+  display: block;
+}
+
+.elementsFormRvw {
+  background-color: #f1f1f1;
+  padding: 10px;
+  padding-top: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.titleReviewCenter {
+  text-align: center;
+  font-family: 'TradeGothic', 'Arial';
+  font-size: 2.2em;
+}
+
+.topReviewResume {
+  display: table;
+}
+
+.topReviewResume * {
+  float: left;
+  margin: 0px;
+  padding-right: 10px;
+}
+
+.topReviewResume h4 {
+  padding-top: 5px;
+  font-family: 'TradeGothic', 'Arial';
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.topReviewResume p {
+  padding-top: 5px;
+  display: block;
+  font-family: 'TradeGothicLight', 'Arial';
+  font-size: 16px;
+}
+
+.titleLft h4 {
+  font-family: 'TradeGothic', 'Arial';
+  margin: 0px;
+  text-transform: uppercase;
+  color: #555555;
+  font-size: 1.2em;
+}
+
+.friendYesNo {
+  color: #555555;
+  font-family: 'TradeGothicLight', 'Arial';
+  font-size: 16px;
+}
+
+.friendYesNo strong {
+  font-family: 'TradeGothic', 'Arial';
+}
+
+p.ageInfo {
+  margin-top: 20px;
+}
+
+.txtReviewInfo {
+  margin: 0px;
+}
+
+.topBrdReview {
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.topInfoReviews {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #bdbdbd;
+  padding-bottom: 10px;
+}
+
+.topInfoReviews h3 {
+  margin-top: 0px;
+}
+
+button.wrReview {
+  font-family: 'TradeGothic', 'Arial';
+  border: none;
+  font-size: 19px;
+  padding: 15px 40px;
+  color: white;
+  background: #333;
+  float: right;
+}
+
+button.wrReview:hover {
+  background-color: #F47321;
+}
+
+.row.countRvw {
+  border-bottom: 1px solid #bdbdbd;
+  padding: 14px 0px;
+  margin-bottom: 20px;
+}
+
+p.countCommentInfo {
+  font-family: 'TradeGothicLight', 'Arial';
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.txtReview p {
+  color: gray;
+  font-family: 'TradeGothicLight', 'Arial';
+  font-size: 16px;
+}
+
+.infoFilterReview {
+  float: right;
+}
+
+.elementsFormRvw.active {
+  display: block;
+}
+
+.elementsFormRvw {
+  display: none;
+}
+
+.heartFavorite {
+  position: absolute;
+  cursor: pointer;
+  top: 42px;
+  left: -55px;
+  z-index: 1;
+}
+
+.heartFavorite img {
+  height: 17px;
+}
+
+.comunMsgInfo {
+  display: none;
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid gray;
+  font-family: 'dockersLight', 'Arial';
+}
+
+.colorOptionsPop div {
+  margin-bottom: 10px;
+}
+
+//
+
+//
+
+li.activeNumSize {
+  background: black !important;
+  color: white !important;
+}
+
+.imgPrdColor:hover {
+  cursor: pointer;
+}
+
+//
+
+

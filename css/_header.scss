@@ -1,0 +1,334 @@
+#header {
+  z-index: 99999 !important;
+  background: white;
+  margin: 0 auto !important;
+}
+
+.flagItemTop {
+  float: right;
+  padding-left: 10px;
+  padding-top: 9px;
+}
+
+.topGray {
+  height: 33px;
+  background: #333;
+}
+
+ul.linksTopInfo li {
+  display: inline-block;
+  padding: 7px 0px;
+  padding-left: 15px;
+  color: #fff;
+}
+
+ul.linksTopInfo {
+  font-family: 'dockersLight', 'Arial';
+  text-align: right;
+  font-size: 13px;
+  letter-spacing: .5px;
+}
+
+ul.linksTopInfo li a {
+  color: #fff;
+}
+
+ul.promoSendPak li {
+  display: inline-block;
+  padding: 7px 0px;
+  padding-left: 0px;
+  font-size: 13px;
+  color: #fff;
+}
+
+ul.promoSendPak {
+  font-family: 'dockersLight', 'Arial';
+  text-align: left;
+}
+
+ul.promoSendPak li a {
+  color: #999;;
+}
+
+.logo {
+  height: 40px;
+}
+
+nav.topNavigation ul li {
+  display: inline-block;
+  color: black;
+}
+
+li.option a {
+  color: black;
+}
+ 
+nav.topNavigation {
+  display: inline-block;
+  margin-top: 2px;
+  margin-left: 0px;
+}
+
+.logoTop {
+  float: left;
+}
+
+ul.topMoreInfo li {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+ul.topMoreInfo {
+  text-align: right;
+}
+
+li.bagBox {
+  padding-bottom: 5px;
+}
+
+.loveIcon {
+  height: 30px;
+  width: 27px;
+  display: block;
+  background-image: url("../images/default/heart.png");
+  background-position: 0px 8px;
+  background-repeat: no-repeat;
+}
+
+.iconBag {
+  height: 32px;
+  width: 30px;
+  display: block;
+  background-image: url("../images/default/bag.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+.iconboxSearchMb {
+  height: 27px;
+  width: 30px;
+  display: block;
+  background-image: url(../images/default/searchMb.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  margin-top: 3px;
+}
+
+.btmBorder {
+  border-bottom: 1px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.promoCenter {
+  text-align: center;
+  margin: 10px;
+}
+
+.searchTopBox {
+  border: none;
+  border-bottom: 1px solid black;
+  outline: 0;
+  color: black;
+  width: 120px;
+}
+
+.searchMbFrm {
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  position: absolute;
+  background: white;
+  width: 100%;
+  padding: 15px;
+  height: 60px;
+  z-index: 10;
+  display: none;
+}
+
+.inpSearchMb {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #868686;
+  outline: 0;
+}
+
+.searchMbFrm.active {
+  display: block;
+}
+
+.bagBox {
+  float: right;
+}
+
+.signinBox a {
+  color: #333;
+  font-size: 14px;
+}
+
+.signinBox a:hover {
+  text-decoration: none;
+}
+
+button.activeSearch {
+  height: 20px;
+  width: 25px;
+  border: none;
+  background-image: url('../images/default/searchActive.png');
+}
+
+ul.socialFooter {
+  text-align: left;
+  margin-top: 20px;
+  font-family: icomoon;
+  margin-left: -20px;
+}
+
+p.lastTextOption {
+  margin: 0px;
+}
+
+// Fast Cart
+.btnFastCart {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: #e86d1e;
+  color: white;
+  font-family: 'dockersLight', 'Arial';
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 1.3em;
+}
+
+.btnFastCart:hover {
+  background: #c64d00;
+}
+
+// Fast Cart
+.nOfItems {
+  text-align: center;
+  font-family: 'dockersLight', 'Arial';
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 5px;
+}
+
+.ordTotalMc {
+  font-family: 'dockersLight', 'Arial';
+  text-align: left;
+}
+
+.ordNumberMc {
+  font-family: 'dockersLight', 'Arial';
+}
+
+.titleTlMc {
+  margin: 0px;
+  text-align: left;
+}
+
+.priceTlMc {
+  font-size: 11px;
+  margin: 0px;
+}
+
+.styleNb {
+  margin: 0px;
+  font-size: 10px;
+  text-align: left;
+}
+
+.lineCurv {
+  border-bottom: 1px solid #bfbfbf;
+  padding-bottom: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+// Fast Car
+.menuLvs .option {
+  font-family: 'dockersBold', 'Arial';
+}
+
+// Fast Car
+p.firstTextOption.sale a {
+  color: darkOrange;
+}
+
+.nobb li {
+  list-style-type: none;
+}
+
+//
+
+.sizeWL {
+  font-weight: bold;
+  margin: 0px;
+  text-align: left;
+  font-size: 11px;
+  padding-top: 1px;
+}
+
+.qtyPrice {
+  font-weight: bold;
+  margin: 0px;
+  text-align: left;
+  font-size: 10px;
+  padding-top: 1px;
+}
+
+a.lnkRemove {
+  position: absolute;
+  right: -55px;
+  bottom: 10px;
+  font-size: 10px;
+}
+
+a.lnkNumberItems {
+  color: black;
+  font-size: 13px;
+  font-family: 'dockersRegular', 'Arial';
+}
+
+a.lnkNumberItems span {
+  margin-top: 13px;
+  position: absolute;
+  right: 24px;
+}
+
+//
+
+//
+
+.searchMbFrm {
+  -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  position: absolute;
+  background: white;
+  width: 100%;
+  padding: 15px;
+  height: 60px;
+  z-index: 10;
+  display: none;
+}
+
+.inpSearchMb {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #868686;
+  outline: 0;
+}
+
+.searchMbFrm.active {
+  display: block;
+}
+
+//
+
+
+

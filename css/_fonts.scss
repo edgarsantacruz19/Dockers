@@ -1,0 +1,55 @@
+
+/* Ejemplo de fuente seguir la ruta de la fuente */ 
+
+@font-face { 
+  font-family:'dockersLight';
+  src:url('../fonts/dockersLight.eot?#iefix')
+  format('embedded-opentype'),url('../fonts/dockersLight.woff')  
+  format('woff'),url('../fonts/dockersLight.ttf') 
+  format('truetype'),url('../fonts/dockersLight.svg#dockersLight-20') format('svg');
+}
+
+
+@font-face { 
+  font-family:'dockersRegular'; 
+  src:url('../fonts/dockersRegular.eot?#iefix')
+  format('embedded-opentype'),url('../fonts/dockersRegular.woff')
+  format('woff'),url('../fonts/dockersRegular.ttf')
+  format('truetype'),url('../fonts/dockersRegular.svg#dockersRegular-20') format('svg');
+}  
+   
+
+@font-face { 
+  font-family:'dockersBold';
+  src:url('../fonts/dockersBold.eot?#iefix') 
+  format('embedded-opentype'),url('../fonts/dockersBold.woff')  
+  format('woff'),url('../fonts/dockersBold.ttf') 
+  format('truetype'),url('../fonts/dockersBold.svg#dockersBold-20') format('svg');
+}
+ 
+
+ 
+@font-face { 
+  font-family:'TradeGothic'; 
+  src:url('../fonts/trade-gothic-bold.eot?#iefix') 
+  format('embedded-opentype'),url('../fonts/trade-gothic-bold.woff')  
+  format('woff'),url('../fonts/trade-gothic-bold.ttf') 
+  format('truetype'),url('../fonts/trade-gothic-bold.svg#trade-gothic-bold-20') format('svg');
+}
+
+
+
+@font-face {
+  font-family:'icomoon';
+  src:url('../fonts/icomoon.eot?#iefix')
+  format('embedded-opentype'),url('../fonts/icomoon.woff')
+  format('woff'),url('../fonts/icomoon.ttf')
+  format('truetype'),url('../fonts/icomoon.svg#incon') format('svg');
+}
+
+
+
+
+
+
+

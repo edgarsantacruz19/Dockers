@@ -1,0 +1,436 @@
+.optionsPanelUser li {
+    padding: 22px 0px 20px 0px;
+    text-transform: uppercase;
+    font-family: 'dockersLight', 'Arial';
+    border-bottom: 1px solid #d5d5d5;
+    font-size: 13px;
+    margin-right: 15px;
+}
+.optionsPanelUser li.selected {
+    margin-right: -2px;
+}
+ul.optionsPanelUser li a {
+    color: black;
+}
+.my_account {
+    text-transform: uppercase;
+    font-family: 'dockersBold', 'Arial';
+}
+.backAccountUser {
+    background: white;
+}
+span.icon {
+    height: 30px;
+    width: 30px;
+    margin-left: 3px;
+    margin-top: -4px;
+    margin-right: 6px;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    background: url(../images/default/account-sprite.png) no-repeat;
+}
+ul.optionsPanelUser li.selected {
+    background-color: white;
+    border: 2px solid #d5d5d5;
+    border-right: 0px;
+}
+.mis_noti.icon {
+    background-position: 0px -298px;
+}
+.mis_pedidos.icon {
+    background-position: 0px -149px;
+}
+.mis_favoritos.icon {
+    background-position: 0px -198px;
+}
+.mis_devoluciones.icon {
+    background-position: 0px -149px;
+}
+.mis_direcciones.icon {
+    background-position: 0px -50px;
+}
+.mis_tarjetas.icon {
+    background-position: 0px -100px;
+}
+.mis_cupones.icon {
+    background-position: 0px -350px;
+}
+.user_panel {
+    background: white;
+    min-height: 500px;
+    margin-top: 15px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid #dedede;
+    font-family: 'dockersLight', 'Arial';
+    margin-bottom: 30px;
+}
+.user_panel h2 {
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #e5e5e5;
+    font-family: 'dockersBold', 'Arial';
+    text-transform: uppercase;
+}
+.cart_detail {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+ul.panelUserCombo {
+    color: black;
+}
+ul.panelUserCombo p {
+    font-size: 14px;
+    font-family: 'dockersBold', 'Arial';
+}
+ul.panelUserCombo span {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 14px;
+    letter-spacing: 0.06;
+    margin-left: 5px;
+}
+ul.panelUserCombo li {
+    margin-top: 5px;
+}
+.sidebar .sr {
+    z-index: 1;
+}
+.form_edit {
+    width: 70%;
+}
+.form_edit .gender {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #eaeaea;
+}
+.form_edit input[type=text] {
+    background: #f0f0f0;
+    border-radius: 0px;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid #666;
+}
+.form_edit input[type=password] {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #eaeaea;
+}
+.form_edit .date {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+}
+.form_edit .gender {
+    padding: 6px;
+    width: 100%;
+    background: #f0f0f0;
+    border: 1px solid #666;
+}
+.form_edit .form-group {
+    font-family: 'dockersLight', 'Arial';
+    height: 35px;
+}
+.form_comun {
+    padding: 10px 30px 30px 30px;
+    width: 70%;
+}
+.form_comun .gender {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #eaeaea;
+}
+.form_comun input[type=text] {
+    padding: 6px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+}
+.form_comun input[type=password] {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #eaeaea;
+}
+.form_comun .date {
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+    background: #f1f1f1;
+    margin-bottom: 10px;
+}
+.form_comun .gender {
+    padding: 6px;
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #bdbdbd;
+}
+.form_comun .form-group {
+    margin-top: 10px;
+    font-family: 'dockersLight', 'Arial';
+    height: 35px;
+}
+.normal_18 {
+    margin-top: 15px;
+    font-family: 'dockersLight', 'Arial';
+}
+.m1px {
+    border-top: 1px solid black;
+    height: 1px;
+}
+.love_info h4 {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.pdnInfoVista.more_info {
+    color: #9c9c9c;
+    font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.love_a {
+    text-decoration: underline;
+    color: black;
+}
+.price_right {
+    position: absolute;
+    right: 15px; 
+    top: 55px;
+}
+.price_right span {
+    display: block;
+}
+.lista_favoritos {
+    margin-top: 20px;
+}
+.direction_data {
+    border-top: 1px solid black;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.action-data {
+    float: right;
+    margin-top: 20px;
+}
+.list-left {
+    float: left;
+}
+input.radio-libreta {
+    float: left;
+    margin-top: 17px;
+    margin-right: 10px;
+}
+.action-data a {
+    text-decoration: underline;
+}
+/*Libreta de direcciones*/
+
+#d_direccion .brd {
+    border: solid 1px #D0D0D0;
+    padding: .5em;
+}
+#d_direccion h4 {
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3 !important;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.brd .p_title {
+    font-weight: 700;
+}
+.brd table {
+    border: none;
+    margin-bottom: .5em;
+}
+td.address-title {
+    font-size: .85em;
+    font-weight: 700;
+    padding-right: 1.5em;
+}
+.brd hr {
+    margin-top: 1px;
+    margin-bottom: 1em;
+}
+a.direction.removeAct {
+    color: #b94141;
+    background: url(../images/default/remove.gif) no-repeat 4px 2px;
+    padding-left: 20px;
+}
+a.direction.infoAct {
+    background: url(../images/default/information.png) no-repeat;
+    padding-left: 20px;
+}
+a.direction.favoriteAct {
+    background: url(../images/default/favorite.gif) no-repeat;
+    padding-left: 15px;
+    margin-left: 5px;
+}
+div#d_direccion {
+    padding-bottom: 30px;
+}
+/*Libreta de direcciones*/
+/*final*/
+
+.big_pedidos h2.libreta {
+    font-weight: bold;
+}
+.col-green {
+    background-color: #009635;
+    color: #fff;
+    height: 56px !important;
+}
+.col-gray {
+    background-color: #D4D4D4;
+    color: #191919;
+    height: 56px !important;
+}
+.col-step p {
+    line-height: 2em;
+    position: absolute;
+    top: 0;
+    margin-left: 18px;
+}
+.col-step h1 {
+    position: relative;
+    font-size: 4em;
+    bottom: 47px;
+    color: #9A9A9A;
+    margin-left: 10px;
+}
+.col-step.bck {
+    background-color: #009635;
+    color: #fff;
+    padding-right: 0px;
+}
+.b-green {
+    margin-bottom: 6em;
+}
+.b-green img {
+    border: 0;
+    padding: 0;
+    height: 56px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: -25px;
+    z-index: 2;
+    width: 45px;
+}
+#tabla-shop tbody>tr>td {
+    border: none;
+}
+#tabla-shop {
+    border: none;
+}
+.table.price {
+    float: right;
+    text-align: right;
+}
+#b_devolucion {
+    float: right;
+}
+#tabla-shop tbody>tr>td {
+    border: none;
+}
+.img_final {
+    width: 50px;
+}
+td.paddingRgh {
+    padding-right: 20px;
+}
+.big_pedidos {
+    margin: 35px;
+}
+.shopDtl {
+    margin-top: 20px;
+}
+/* final */
+
+h1.miCuentaTest {
+    text-align: center;
+    font-family: 'TradeGothic', 'Arial';
+    font-size: 3.3em;
+    margin-bottom: 10px;
+}
+ul.topNavAccount li {
+    display: inline-block;
+    padding: 7px 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-right: 0px;
+    border-left: 0px;
+    border-right: 1px #000 dotted;
+    margin-left: -4px;
+    font-family: 'TradeGothic', 'Arial';
+    letter-spacing: .3px;
+}
+ul.topNavAccount {
+    text-align: center;
+}
+ul.topNavAccount li:first-child {
+    border-left: 1px solid black;
+}
+ul.topNavAccount li:last-child {
+    border-right: 1px solid black;
+}
+ul.topNavAccount li.active {
+    background: black;
+    color: white;
+}
+//
+.containerBoxResume {
+    border: 1px solid #b9b9b9;
+    padding: 10px;
+    min-height: 140px;
+}
+.containerBoxResume h3 {
+    margin: 0px;
+    border-bottom: 1px solid #b9b9b9;
+    margin-bottom: 10px;
+}
+td.address-title {
+    padding-right: 10px;
+    font-weight: bold;
+}
+.libretaDrc h4 {
+    border-bottom: 1px solid #b9b9b9;
+    font-size: 16px;
+}
+.welcomeMsgAccount {
+    margin-bottom: 30px;
+}
+.welcomeMsgAccount h4 {
+    margin-bottom: 5px;
+}
+.user_panel ul li {
+    list-style-type: none;
+}
+.topNavAccount li:hover {
+    cursor: pointer;
+}
+ul.listInfoAccountMb {
+    text-align: center;
+}
+ul.listInfoAccountMb li {
+    text-align: center;
+    list-style-type: none;
+}
+h3.ttAccount {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.row.directionSp {
+    padding-top: 40px;
+}
+//

@@ -1,0 +1,101 @@
+
+.formLoginActions {
+  padding-left: 200px;
+  padding-right: 30px;
+}
+
+.formLoginActions input {
+  width: 100%;
+  padding: 10px;
+  background: #f0f0f0;
+  border: 1px solid #cccccc;
+}
+
+.formLoginActions h3 {
+  text-align: center;
+  font-family: 'dockersLight', 'Arial';
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.createActionLink h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'dockersLight', 'Arial';
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-transform: uppercase;
+  color: #666;
+}
+
+button.actionLoginButtons {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background: #f47321;
+  color: white;
+}
+
+button.actionLoginButtons:hover {
+  background: #da5212;
+}
+
+label.fPasswordInp span {
+  float: right;
+  font-weight: lighter;
+}
+
+.kitLoginActions {
+  padding-top: 70px;
+}
+
+.createActionLink {
+  padding-right: 200px;
+  padding-left: 30px;
+}
+
+.brdLogReg {
+  border-right: 1px solid gray;
+}
+
+.fPasswordInp a {
+  color: gray;
+  text-decoration: underline;
+}
+
+.form-group label {
+  color: #666;
+  font-weight: lighter;
+}
+
+p.infoTextLoginTerms {
+  color: #666;
+}
+
+p.infoTextLoginTerms a {
+  color: #666;
+  text-decoration: underline;
+}
+
+ul.devProd li a {
+  color: #666;
+}
+
+h2.topTitleFt {
+  color: #666;
+}
+
+ul.dispLineFooter li a {
+  color: #666;
+}
+
+ul.dispLineFooter li a:hover {
+  color: #f47321;
+}
+
+
+
+
+

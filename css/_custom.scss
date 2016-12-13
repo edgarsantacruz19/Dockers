@@ -1,0 +1,82 @@
+body {
+  font-family: 'dockersLight', 'Arial';
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.noPdn {
+  padding: 0px;
+}
+
+.noPdnR {
+  padding-right: 0px;
+}
+
+::selection {
+  background: #f37333;
+  color: #fff;
+  text-shadow: none;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.w100 {
+  width: 100%;
+}
+
+//Zoom JS
+.cloudzoom-zoom {
+  height: 545px !important;
+  width: 490px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+//Zoom
+
+.col-five {
+  width: 20%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+//SWIPER
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  margin-top: 15px;
+  position: relative;
+}
+
+//SWIPER SLIDES
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+
+
+
+
+

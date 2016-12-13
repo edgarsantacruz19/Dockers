@@ -1,0 +1,409 @@
+
+.topBordersCart {
+    border-top: 1px solid darkgrey;
+    padding: 8px 15px;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 20px;
+}
+
+.listaQty {
+    list-style-type: none; 
+} 
+.titleProductCart {
+    margin-top: 0px;
+    font-family: 'dockersBold', 'Arial';
+    font-size: 12.5px;
+    color: black;
+    letter-spacing: .5px;
+}
+.topBordersCart {
+    font-family: 'dockersLight', 'Arial';
+    color: #545454;
+    font-size: 12px;
+}
+.itemAdded {
+    margin: 0px;
+}
+.cartTitle {
+    font-family: 'TradeGothic','Arial'; 
+    font-size: 2.2em;
+    letter-spacing: 1px; 
+    margin-top: 0px;
+}
+.userWhishList {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.userWhishList a {
+    text-decoration: underline;
+    color: black;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+.actionsCartUser a {
+    color: gray;
+    font-family: 'dockersLight', 'Arial';
+    font-size: 12px;
+}
+.infoTextCart p {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 12px;
+    color: #545454
+}
+.infoTextCart p.visibleText {
+    font-family: 'dockersLight', 'Arial';
+    font-weight: bold;
+    color: #545454;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+.priceCartPre {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 13px;
+    color: gray;
+    letter-spacing: .5px;
+}
+.priceCart {
+    font-family: 'dockersBold','Arial';
+    font-size: 12.5px;
+    letter-spacing: .5px;
+    color: black;
+    text-align: right;
+}
+.inlineCart {
+    display: inline-block;
+    padding: 0px 7px;
+}
+.priceFinalCart span {
+    font-family: 'dockersBold', 'Arial';
+    font-size: 16px;
+    display: block;
+    padding: 5px;
+}
+.borderTopCart {
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+img.paypalCart {
+    height: 28px;
+}
+
+.joinCartPayment {
+    display: inline-block;
+    font-style: italic; 
+    padding: 0px 15px; 
+    font-size: 13px; 
+}
+
+
+
+.container.cartDetail { 
+    max-width: 1130px;
+    padding: 0px 35px;
+    margin-bottom: 40px;
+} 
+
+
+a.backStyle {
+    margin-top: 20px; 
+    color: #545454;  
+    font-family:'dockersLight','Arial';
+    font-size: .88em;   
+    letter-spacing: .7px;  
+            }
+ 
+
+
+span.rowBackShop {  
+     
+    height: 15px;
+    width: 65px; 
+    display: block; 
+    background-image: url("../images/default/oneSprite.png");    
+    background-position: -425px -185px;
+    float: left;
+    margin-top: 1.85px;
+    margin-right: 3px; 
+
+}
+
+ 
+.alsoLikeCart h3 { text-transform: uppercase;  text-align: center;    
+    font-size: 1.5em; 
+    font-family: 'dockersBold','Arial';    padding-bottom: 10px;  }
+
+
+.alsoFiveImages { margin: 0px 60px;  }   
+ 
+
+.cartSendAction {       
+ font-family: 'TradeGothic','Arial'; 
+ padding: 5px 70px;  
+ border: none; 
+ background-color: #f47321;  
+ color: white; 
+ font-size: 2em;
+ letter-spacing: 1px; 
+ float: right;
+ }
+
+.cartSendAction:hover { 
+  background: #c94d00; 
+}
+
+.price p span {
+    color: gray; 
+    margin: 0px;
+    font-family: 'dockersLight', 'Arial';
+    font-size: .70em;
+    text-decoration: line-through;
+    padding-right: 15px;
+}
+
+
+///
+
+
+.priceFinalCart { margin-top: 20px; }
+
+.txtRight  { text-align: right; }
+
+.resumeCartPrc {  
+
+border-bottom: 1px solid #c5c5c5;
+padding-bottom: 20px;
+
+}
+
+.promoCodeCart {
+    height: 30px; 
+    border: none;
+    border:  1px solid #c5c5c5;  
+}
+
+.promoCodeCart:focus { 
+    border: 1px solid darkOrange;
+    outline: 0;      
+}
+
+
+.promoCodeCart:focus { 
+    border: 1px solid darkOrange;
+    outline: 0;      
+}
+ 
+button.sendPromoCode {
+    font-weight: bold; 
+    letter-spacing: .5px; 
+    background-color: #666; 
+    color: white; 
+    margin-left: -3px; 
+    border: none;
+    height: 30px; 
+    padding: 0px 10px;  
+}
+
+.promoCodeCart:focus + .sendPromoCode { 
+    background-color: darkOrange; 
+}
+ 
+ 
+.topNavActionsCart { 
+
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+
+ul.more_info strike { font-weight: bold; }
+
+  
+ul.more_info li { list-style-type: none; }
+
+.guide_titles {
+    border-bottom: 1px solid #c1c1c1;
+    border-top: 1px solid #c1c1c1;
+    font-family: 'dockersLight', 'Arial';
+}
+.guide_titles h4 {
+    margin-bottom: 10px;
+    margin-top: 13px;
+    letter-spacing: .08em;
+}
+.r_title h2 {
+    margin: 0px 0px 5px 0px;
+    font-family: 'dockersBold', 'Arial';
+    font-size: 18px;
+    letter-spacing: .04em;
+}
+strong.ex-bold {
+    font-family: 'dockersBold', 'Arial';
+}
+.row.showp {
+    margin-top: 20px;
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 20px;
+}
+
+
+h1.carTitleBag {
+    text-transform: uppercase;
+    font-family: 'TradeGothic','Arial';
+    font-weight: 100;
+    margin: 0px;
+    font-size: 2em; 
+    margin-top: 5px; 
+}
+
+
+h3.carTitleBag {
+    text-transform: uppercase;
+    font-family: 'TradeGothic','Arial';
+    font-weight: 100;
+    margin: 0px;
+    font-size: 1.4em; 
+    margin-top: 5px; 
+}
+
+h3.carTitleBag a {
+    color: black; 
+}
+
+
+h3.carTitleBag a,:hover {
+    text-decoration: none; 
+}
+
+
+h3.carTitleBag img { margin-right: 8px; }
+
+
+.bag_summary {
+    padding-left: 30px;
+    border-left: 1px solid #c1c1c1;
+    margin-top: 30px;
+}
+
+ul.more_info {
+    font-family: 'dockersLight', 'Arial';
+    font-size: 15px;
+    color: gray;
+    margin-top: 5px;
+}
+span.cblack {
+    color: black;
+    letter-spacing: 0.05em;
+}
+ul.more_info li {
+    margin-bottom: 4px;
+}
+
+ul.edit_actions {
+    position: absolute;
+    bottom: 0px;
+    font-family: 'dockersBold', 'Arial';
+    font-size: 15.3px;
+    left: 100%;
+}
+ul.edit_actions li {
+    display: inline-block;
+}
+ul.edit_actions li a {
+    color: black;
+}
+
+
+
+li.n_m:before {
+    border-left: none !important;
+}
+.info_price {
+    padding: 12px 10px 8px 10px;
+    margin-bottom: 20px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-family: 'dockersLight', 'Arial';
+}
+.btn-express.cart {
+    font-family: 'dockersBold';
+    font-size: 18px;
+    letter-spacing: 1.4px;
+    margin-top: 20px;
+}
+.total_price {
+    padding: 15px 0px 35px 0px;
+    background-color: #e6e6e6;
+    margin: 15px;
+    font-family: 'dockersBold';
+}
+.sub_price {
+    margin-bottom: 12px;
+    font-family: 'dockersLight', 'Arial';
+}
+.shipping_price {
+    margin-bottom: 12px;
+    font-family: 'dockersLight', 'Arial';
+}
+.one_last h3 {
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 5px;
+    font-family: 'dockersLight', 'Arial';
+}
+.informative_price {
+    font-size: 16px;
+}
+.actions_cart li {
+    display: inline-block;
+    padding: 5px 30px 5px 55px;
+    color: #636363;
+    margin-bottom: 13px;
+}
+
+
+.footer-utility-box span {
+    text-transform: uppercase;
+    display: block;
+    text-align: left;
+    font-family: 'dockersLight', 'Arial';
+}
+.footer-utility-info {
+    font-size: 10px;
+}
+.footer-utility-title {
+    font-size: 14px;
+}
+
+
+
+ul.actions_cart li { 
+    width: 100%;
+}
+
+
+.optionsBag {
+    padding-left: 30px;
+    border-left: 1px solid #c1c1c1;
+    margin-top: 30px;
+     }
+
+
+.noProductsInCart h1 {
+    text-transform: uppercase; 
+    font-family: 'dockersLight', 'Arial';
+    font-weight: 100;
+    margin-left: -15px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+h1.noProductsInCart {
+    border-bottom: 1px solid #a4a4a4;
+    margin-bottom: 25px;
+}
+
